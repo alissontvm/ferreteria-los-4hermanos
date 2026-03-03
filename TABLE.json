@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "Producto": "1093",
+    "Descripción": "ALICATE ATLAS 9",
+    "Medida": "pz",
+    "Categoría": "Herramientas"
+  },
+  {
+    "id": 2,
+    "Producto": "1095",
+    "Descripción": "ALMADANA 2 LB INGCO 676840",
+    "Medida": "pz",
+    "Categoría": "Herramientas"
+  },
+  {
+    "id": 3,
+    "Producto": "1099",
+    "Descripción": "RATCHET GREATNECK 1/2",
+    "Medida": "pz",
+    "Categoría": "Herramientas"
+  },
+  {
+    "id": 4,
+    "Producto": "1125",
+    "Descripción": "REMACHADORA/PRETUL/10 PLG",
+    "Medida": "pz",
+    "Categoría": "Herramientas"
+  },
+  {
+    "id": 5,
+    "Producto": "1139",
+    "Descripción": "REPUESTO/NABAJA/TRUPER/UNIDAD",
+    "Medida": "pz",
+    "Categoría": "Herramientas"
+  },
+  {
+    "id": 6,
+    "Producto": "1163",
+    "Descripción": "SERRUCHO DIESEL TOOLS 18 PLG",
+    "Medida": "pz",
+    "Categoría": "Herramientas"
+  },
+  {
+    "id": 7,
+    "Producto": "1166",
+    "Descripción": "MARCO C/SIERRA TUBULAR BRICKELL SB-590",
+    "Medida": "pz",
+    "Categoría": "Herramientas"
+  },
+  {
+    "id": 8,
+    "Producto": "1168",
+    "Descripción": "SIERRA/CALADORA/TOTAL/UNIDAD",
+    "Medida": "pz",
+    "Categoría": "Herramientas"
+  },
+  {
+    "id": 9,
+    "Producto": "1279",
+    "Descripción": "TIJERA DE AVIACION RECTA COVO 10 PLG",
+    "Medida": "pz",
+    "Categoría": "Herramientas"
+  },
+  {
+    "id": 10,
+    "Producto": "1282",
+    "Descripción": "TIJERA/PODAR/GRAMA/DIESEL TOOLS 10",
+    "Medida": "pz",
+    "Categoría": "Herramientas"
+  },
+  {
+    "id": 11,
+    "Producto": "1077",
+    "Descripción": "ADAPTADOR C/TIERRA/EAGLE/419",
+    "Medida": "pz",
+    "Categoría": "Electricidad"
+  },
+  {
+    "id": 12,
+    "Producto": "1123",
+    "Descripción": "REGLETA/EAGLE/3FT-90CM/1135",
+    "Medida": "pz",
+    "Categoría": "Electricidad"
+  },
+  {
+    "id": 13,
+    "Producto": "1161",
+    "Descripción": "SALIDA/TOMACORRIENTE/1A3/EAGLE/400",
+    "Medida": "pz",
+    "Categoría": "Electricidad"
+  },
+  {
+    "id": 14,
+    "Producto": "1162",
+    "Descripción": "SENSOR/MOVIMIENTO/VOLTECK",
+    "Medida": "pz",
+    "Categoría": "Electricidad"
+  },
+  {
+    "id": 15,
+    "Producto": "1181",
+    "Descripción": "SOCKET",
+    "Medida": "pz",
+    "Categoría": "Electricidad"
+  },
+  {
+    "id": 16,
+    "Producto": "1185",
+    "Descripción": "SOCKET/PATILLAS/EAGLE/738",
+    "Medida": "pz",
+    "Categoría": "Electricidad"
+  },
+  {
+    "id": 17,
+    "Producto": "1190",
+    "Descripción": "SOPORTE PARA TUBO LED DE 40",
+    "Medida": "pz",
+    "Categoría": "Electricidad"
+  },
+  {
+    "id": 18,
+    "Producto": "1201",
+    "Descripción": "STARTERS/SYLVANIA/40W",
+    "Medida": "pz",
+    "Categoría": "Electricidad"
+  },
+  {
+    "id": 19,
+    "Producto": "1291",
+    "Descripción": "TOMA/DOBLE/EMPOTRAR/EAGLE/270",
+    "Medida": "pz",
+    "Categoría": "Electricidad"
+  },
+  {
+    "id": 20,
+    "Producto": "1295",
+    "Descripción": "TOMA/FALLA A TIERRA/EAGLE/GF15W",
+    "Medida": "pz",
+    "Categoría": "Electricidad"
+  },
+  {
+    "id": 21,
+    "Producto": "1052",
+    "Descripción": "ABRAZADERA 5/8 x 3/8 SURTEK S/F",
+    "Medida": "pz",
+    "Categoría": "Plomería"
+  },
+  {
+    "id": 22,
+    "Producto": "1078",
+    "Descripción": "ADAPTADOR/MACHO/DURMAN 1/2",
+    "Medida": "pz",
+    "Categoría": "Plomería"
+  },
+  {
+    "id": 23,
+    "Producto": "1101",
+    "Descripción": "REDUCTOR/AMANCO/POTABLE/2 X 1 PLG",
+    "Medida": "pz",
+    "Categoría": "Plomería"
+  },
+  {
+    "id": 24,
+    "Producto": "1113",
+    "Descripción": "DUCHA/CUADRADA ACERO INOX ATRACTIVO",
+    "Medida": "pz",
+    "Categoría": "Plomería"
+  },
+  {
+    "id": 25,
+    "Producto": "1148",
+    "Descripción": "RESUMIDERO BAÑO/DUCHA 3PLG X 10CM",
+    "Medida": "pz",
+    "Categoría": "Plomería"
+  },
+  {
+    "id": 26,
+    "Producto": "1170",
+    "Descripción": "SIFON/CONTINUACION/DURMAN 2 PLG",
+    "Medida": "pz",
+    "Categoría": "Plomería"
+  },
+  {
+    "id": 27,
+    "Producto": "1180",
+    "Descripción": "SISTEMA PARA BAÑO ECONOMAX",
+    "Medida": "pz",
+    "Categoría": "Plomería"
+  },
+  {
+    "id": 28,
+    "Producto": "1217",
+    "Descripción": "TAPON/LISO/DESAGUE/ACES/2 PLG",
+    "Medida": "pz",
+    "Categoría": "Plomería"
+  },
+  {
+    "id": 29,
+    "Producto": "1247",
+    "Descripción": "TEE/LISA 1/2 PLG",
+    "Medida": "pz",
+    "Categoría": "Plomería"
+  },
+  {
+    "id": 30,
+    "Producto": "1258",
+    "Descripción": "TEE C/ROSCA 1/2 DURMAN",
+    "Medida": "pz",
+    "Categoría": "Plomería"
+  },
+  {
+    "id": 31,
+    "Producto": "1001",
+    "Descripción": "1/2/BOTELLA/THINNER",
+    "Medida": "pz",
+    "Categoría": "Pintura"
+  },
+  {
+    "id": 32,
+    "Producto": "1005",
+    "Descripción": "1/4/ACEITE/MEGACOLOR/AZUL ATLANTICO/4321",
+    "Medida": "pz",
+    "Categoría": "Pintura"
+  },
+  {
+    "id": 33,
+    "Producto": "1022",
+    "Descripción": "1/4/ACEITE/MEGACOLOR/NEGRO/4301",
+    "Medida": "pz",
+    "Categoría": "Pintura"
+  },
+  {
+    "id": 34,
+    "Producto": "1031",
+    "Descripción": "1/4/ANTICORRO/MEGA/AMARILLO BRILL/5310",
+    "Medida": "pz",
+    "Categoría": "Pintura"
+  },
+  {
+    "id": 35,
+    "Producto": "1040",
+    "Descripción": "1/4/BARNIZ/MEGACOLOR/BRILL/CAOBA/8058",
+    "Medida": "pz",
+    "Categoría": "Pintura"
+  },
+  {
+    "id": 36,
+    "Producto": "1044",
+    "Descripción": "1/4/BARNIZ/MEGACOLOR/TRANSPARENTE/8051",
+    "Medida": "pz",
+    "Categoría": "Pintura"
+  },
+  {
+    "id": 37,
+    "Producto": "1175",
+    "Descripción": "SILICON/ABRO/GRIS/ALTATEMPERATURA",
+    "Medida": "pz",
+    "Categoría": "Pintura"
+  },
+  {
+    "id": 38,
+    "Producto": "1197",
+    "Descripción": "SPRAY/ABRO/ORO/418",
+    "Medida": "pz",
+    "Categoría": "Pintura"
+  },
+  {
+    "id": 39,
+    "Producto": "1214",
+    "Descripción": "TAPAGOTERA LANCO/8oz",
+    "Medida": "pz",
+    "Categoría": "Pintura"
+  },
+  {
+    "id": 40,
+    "Producto": "1285",
+    "Descripción": "TIRRO BLUE BOLD (GRANDE)",
+    "Medida": "pz",
+    "Categoría": "Pintura"
+  }
+]

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<style> :root { --primary: #2c3e50; --accent: #e67e22; --bg: #f4f7f6; } body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg); margin: 0; padding: 20px; } header { text-align: center; padding: 20px; background: var(--primary); color: white; border-radius: 8px; margin-bottom: 30px; } .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; max-width: 1200px; margin: auto; } .card { background: white; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; display: flex; flex-direction: column; transition: 0.3s; } .card:hover { transform: translateY(-5px); box-shadow: 0 6px 12px rgba(0,0,0,0.15); } .img-container { width: 100%; height: 150px; background: #eee; display: flex; align-items: center; justify-content: center; overflow: hidden; } .img-container img { width: 100%; height: 100%; object-fit: cover; } .info { padding: 15px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; } .info h3 { font-size: 0.9rem; margin: 0 0 10px 0; color: #333; text-transform: uppercase; height: 3.6em; overflow: hidden; } .badge { font-size: 0.75rem; background: var(--accent); color: white; padding: 3px 8px; border-radius: 4px; align-self: flex-start; margin-bottom: 5px; } .unit { font-size: 0.8rem; color: #7f8c8d; font-weight: bold; } </style>
+
+    <div class="card">
+<div class="img-container"><img src="images/1_2_botella_solvente.jpg"></div>
+<div class="info"><span class="badge">COD: 1000</span><h3>1/2 BOTELLA SOLVENTE</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_2_botella_thinner.jpg"></div>
+<div class="info"><span class="badge">COD: 1001</span><h3>1/2 BOTELLA THINNER</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_mega_amarillo_canario_4326.jpg"></div>
+<div class="info"><span class="badge">COD: 1002</span><h3>1/4 ACEITE MEGA AMARILLO CANARIO 4326</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_mega_amarillo_intenso_4325.jpg"></div>
+<div class="info"><span class="badge">COD: 1003</span><h3>1/4 ACEITE MEGA AMARILLO INTENSO 4325</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_mega_aqua_4333.jpg"></div>
+<div class="info"><span class="badge">COD: 1004</span><h3>1/4 ACEITE MEGA AQUA 4333</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_azul_atlantico_4321.jpg"></div>
+<div class="info"><span class="badge">COD: 1005</span><h3>1/4 ACEITE MEGACOLOR AZUL ATLANTICO 4321</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_azul_bandera_4323.jpg"></div>
+<div class="info"><span class="badge">COD: 1006</span><h3>1/4 ACEITE MEGACOLOR AZUL BANDERA 4323</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_azul_medio_4319.jpg"></div>
+<div class="info"><span class="badge">COD: 1007</span><h3>1/4 ACEITE MEGACOLOR AZUL MEDIO 4319</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_azul_plomo_4356.jpg"></div>
+<div class="info"><span class="badge">COD: 1008</span><h3>1/4 ACEITE MEGACOLOR AZUL PLOMO 4356</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_blanco_hueso_4302.jpg"></div>
+<div class="info"><span class="badge">COD: 1009</span><h3>1/4 ACEITE MEGACOLOR BLANCO HUESO 4302</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_blanco_4300.jpg"></div>
+<div class="info"><span class="badge">COD: 1010</span><h3>1/4 ACEITE MEGACOLOR BLANCO 4300</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_cafe_4370.jpg"></div>
+<div class="info"><span class="badge">COD: 1011</span><h3>1/4 ACEITE MEGACOLOR CAFE 4370</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_caoba_4367.jpg"></div>
+<div class="info"><span class="badge">COD: 1012</span><h3>1/4 ACEITE MEGACOLOR CAOBA 4367</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_celeste_verano_4307.jpg"></div>
+<div class="info"><span class="badge">COD: 1013</span><h3>1/4 ACEITE MEGACOLOR CELESTE VERANO 4307</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_celeste_4306.jpg"></div>
+<div class="info"><span class="badge">COD: 1014</span><h3>1/4 ACEITE MEGACOLOR CELESTE 4306</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_fucsia_4317.jpg"></div>
+<div class="info"><span class="badge">COD: 1015</span><h3>1/4 ACEITE MEGACOLOR FUCSIA 4317</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_gris_4310.jpg"></div>
+<div class="info"><span class="badge">COD: 1016</span><h3>1/4 ACEITE MEGACOLOR GRIS 4310</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_lila_intenso_4358.jpg"></div>
+<div class="info"><span class="badge">COD: 1017</span><h3>1/4 ACEITE MEGACOLOR LILA INTENSO 4358</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_mandarina_4348.jpg"></div>
+<div class="info"><span class="badge">COD: 1018</span><h3>1/4 ACEITE MEGACOLOR MANDARINA 4348</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_marfil_4312.jpg"></div>
+<div class="info"><span class="badge">COD: 1019</span><h3>1/4 ACEITE MEGACOLOR MARFIL 4312</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_melon_4355.jpg"></div>
+<div class="info"><span class="badge">COD: 1020</span><h3>1/4 ACEITE MEGACOLOR MELON 4355</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_menta_4350.jpg"></div>
+<div class="info"><span class="badge">COD: 1021</span><h3>1/4 ACEITE MEGACOLOR MENTA 4350</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_negro_4301.jpg"></div>
+<div class="info"><span class="badge">COD: 1022</span><h3>1/4 ACEITE MEGACOLOR NEGRO 4301</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_rojo_oxido_4366.jpg"></div>
+<div class="info"><span class="badge">COD: 1023</span><h3>1/4 ACEITE MEGACOLOR ROJO OXIDO 4366</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_rojo_vivo_4311.jpg"></div>
+<div class="info"><span class="badge">COD: 1024</span><h3>1/4 ACEITE MEGACOLOR ROJO VIVO 4311</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_rosa_4322.jpg"></div>
+<div class="info"><span class="badge">COD: 1025</span><h3>1/4 ACEITE MEGACOLOR ROSA 4322</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_mega_turquesa_refre_4334.jpg"></div>
+<div class="info"><span class="badge">COD: 1026</span><h3>1/4 ACEITE MEGA TURQUESA REFRE 4334</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_turquesa_4344.jpg"></div>
+<div class="info"><span class="badge">COD: 1027</span><h3>1/4 ACEITE MEGACOLOR TURQUESA 4344</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_verde_alegria_4336.jpg"></div>
+<div class="info"><span class="badge">COD: 1028</span><h3>1/4 ACEITE MEGACOLOR VERDE ALEGRIA 4336</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_verde_grama_4335.jpg"></div>
+<div class="info"><span class="badge">COD: 1029</span><h3>1/4 ACEITE MEGACOLOR VERDE GRAMA 4335</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_aceite_megacolor_verde_oscuro_4340.jpg"></div>
+<div class="info"><span class="badge">COD: 1030</span><h3>1/4 ACEITE MEGACOLOR VERDE OSCURO 4340</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_anticorro_mega_amarillo_brill_5310.jpg"></div>
+<div class="info"><span class="badge">COD: 1031</span><h3>1/4 ANTICORRO MEGA AMARILLO BRILL 5310</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_anticorro_megacolor_azul_brill_5305.jpg"></div>
+<div class="info"><span class="badge">COD: 1032</span><h3>1/4 ANTICORRO MEGACOLOR AZUL BRILL 5305</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_anticorro_mega_blanco_brill_5306.jpg"></div>
+<div class="info"><span class="badge">COD: 1033</span><h3>1/4 ANTICORRO MEGA BLANCO BRILL 5306</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_anticorro_megacolor_gris_brill_5303.jpg"></div>
+<div class="info"><span class="badge">COD: 1034</span><h3>1/4 ANTICORRO MEGACOLOR GRIS BRILL 5303</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_anticorro_megacolor_negro_brill_5301.jpg"></div>
+<div class="info"><span class="badge">COD: 1035</span><h3>1/4 ANTICORRO MEGACOLOR NEGRO BRILL 5301</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_anticorro_megacolor_rojo_brill_5302.jpg"></div>
+<div class="info"><span class="badge">COD: 1036</span><h3>1/4 ANTICORRO MEGACOLOR ROJO BRILL 5302</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_anticorro_megacolor_verde_brill_5304.jpg"></div>
+<div class="info"><span class="badge">COD: 1037</span><h3>1/4 ANTICORRO MEGACOLOR VERDE BRILL 5304</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_barniz_ultrawood_caoba_0090_04.jpg"></div>
+<div class="info"><span class="badge">COD: 1038</span><h3>1/4 BARNIZ ULTRAWOOD CAOBA 0090-04</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_barniz_mega_brill_caoba_rojizo_8059.jpg"></div>
+<div class="info"><span class="badge">COD: 1039</span><h3>1/4 BARNIZ MEGA BRILL CAOBA ROJIZO 8059</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_barniz_megacolor_brill_caoba_8058.jpg"></div>
+<div class="info"><span class="badge">COD: 1040</span><h3>1/4 BARNIZ MEGACOLOR BRILL CAOBA 8058</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_barniz_mega_brill_nogal_claro_8055.jpg"></div>
+<div class="info"><span class="badge">COD: 1041</span><h3>1/4 BARNIZ MEGA BRILL NOGAL CLARO 8055</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_barniz_ultrawood_transparen_0091_04.jpg"></div>
+<div class="info"><span class="badge">COD: 1042</span><h3>1/4 BARNIZ ULTRAWOOD TRANSPAREN 0091-04</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_barniz_megacolor_nogal_oscuro_8056.jpg"></div>
+<div class="info"><span class="badge">COD: 1043</span><h3>1/4 BARNIZ MEGACOLOR NOGAL OSCURO 8056</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_barniz_megacolor_transparente_8051.jpg"></div>
+<div class="info"><span class="badge">COD: 1044</span><h3>1/4 BARNIZ MEGACOLOR TRANSPARENTE 8051</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_4_impermeabilizante_sherwin_willians.jpg"></div>
+<div class="info"><span class="badge">COD: 1045</span><h3>1/4 IMPERMEABILIZANTE SHERWIN WILLIANS</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/gas_querosen.jpg"></div>
+<div class="info"><span class="badge">COD: 1046</span><h3>GAS QUEROSEN</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_botella_solvente.jpg"></div>
+<div class="info"><span class="badge">COD: 1047</span><h3>1 BOTELLA SOLVENTE</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/1_botella_thinner.jpg"></div>
+<div class="info"><span class="badge">COD: 1048</span><h3>1 BOTELLA THINNER</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abono_fertica_formula_quimica_15_15_15.jpg"></div>
+<div class="info"><span class="badge">COD: 1049</span><h3>ABONO FERTICA FORMULA QUIMICA 15-15-15</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abono_fertica_formula_quimica_16-20-0.jpg"></div>
+<div class="info"><span class="badge">COD: 1050</span><h3>ABONO FERTICA FORMULA QUIMICA 16-20-0</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abono_fertica_urea_46n_sulfato.jpg"></div>
+<div class="info"><span class="badge">COD: 1051</span><h3>ABONO FERTICA UREA 46%N (SULFATO)</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_5_8_x_3_8_surtek_s_f.jpg"></div>
+<div class="info"><span class="badge">COD: 1052</span><h3>ABRAZADERA 5/8 X 3/8 SURTEK S/F</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_fiero_1_1_16_plg.jpg"></div>
+<div class="info"><span class="badge">COD: 1053</span><h3>ABRAZADERA FIERO 1 1/16 PLG</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_fiero_1_1_2_plg.jpg"></div>
+<div class="info"><span class="badge">COD: 1054</span><h3>ABRAZADERA FIERO 1 1/2 PLG</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_fiero_3_4_x_1_1_4.jpg"></div>
+<div class="info"><span class="badge">COD: 1055</span><h3>ABRAZADERA FIERO 3/4 X 1 1/4</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_fiero_1_3_4_plg.jpg"></div>
+<div class="info"><span class="badge">COD: 1056</span><h3>ABRAZADERA FIERO 1 3/4 PLG</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_fiero_2_1_2_plg.jpg"></div>
+<div class="info"><span class="badge">COD: 1057</span><h3>ABRAZADERA FIERO 2 1/2 PLG</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_fiero_2_1_4_plg.jpg"></div>
+<div class="info"><span class="badge">COD: 1058</span><h3>ABRAZADERA FIERO 2 1/4 PLG</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_fiero_2_3_4_plg.jpg"></div>
+<div class="info"><span class="badge">COD: 1059</span><h3>ABRAZADERA FIERO 2 3/4 PLG</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_fiero_2_plg.jpg"></div>
+<div class="info"><span class="badge">COD: 1060</span><h3>ABRAZADERA FIERO 2 PLG</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_fiero_3_1_2_plg.jpg"></div>
+<div class="info"><span class="badge">COD: 1061</span><h3>ABRAZADERA FIERO 3 1/2 PLG</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_fiero_3_1_4_plg.jpg"></div>
+<div class="info"><span class="badge">COD: 1062</span><h3>ABRAZADERA FIERO 3 1/4 PLG</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_fiero_3_3_4_plg.jpg"></div>
+<div class="info"><span class="badge">COD: 1063</span><h3>ABRAZADERA FIERO 3 3/4 PLG</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_fiero_3_plg.jpg"></div>
+<div class="info"><span class="badge">COD: 1064</span><h3>ABRAZADERA FIERO 3 PLG</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_fiero_1_2_x_3_4.jpg"></div>
+<div class="info"><span class="badge">COD: 1065</span><h3>ABRAZADERA FIERO 1/2 X 3/4</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_fiero_4_1_2_plg.jpg"></div>
+<div class="info"><span class="badge">COD: 1066</span><h3>ABRAZADERA FIERO 4 1/2 PLG</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_fiero_4_1_4_plg.jpg"></div>
+<div class="info"><span class="badge">COD: 1067</span><h3>ABRAZADERA FIERO 4 1/4 PLG</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_fiero_4_plg.jpg"></div>
+<div class="info"><span class="badge">COD: 1068</span><h3>ABRAZADERA FIERO 4 PLG</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_fiero_5_plg.jpg"></div>
+<div class="info"><span class="badge">COD: 1069</span><h3>ABRAZADERA FIERO 5 PLG</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/abrazadera_fiero_5_8_plg.jpg"></div>
+<div class="info"><span class="badge">COD: 1070</span><h3>ABRAZADERA FIERO 5/8 PLG</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_3x2.jpg"></div>
+<div class="info"><span class="badge">COD: 1071</span><h3>TAPON REDUCCION PVC 3 X2</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_4x2.jpg"></div>
+<div class="info"><span class="badge">COD: 1072</span><h3>TAPON REDUCCION PVC 4 X2</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_4x3.jpg"></div>
+<div class="info"><span class="badge">COD: 1073</span><h3>TAPON REDUCCION PVC 4 X3</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_6x2.jpg"></div>
+<div class="info"><span class="badge">COD: 1074</span><h3>TAPON REDUCCION PVC 6 X2</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_6x3.jpg"></div>
+<div class="info"><span class="badge">COD: 1075</span><h3>TAPON REDUCCION PVC 6 X3</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_6x4.jpg"></div>
+<div class="info"><span class="badge">COD: 1076</span><h3>TAPON REDUCCION PVC 6 X4</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_8x2.jpg"></div>
+<div class="info"><span class="badge">COD: 1077</span><h3>TAPON REDUCCION PVC 8 X2</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_8x3.jpg"></div>
+<div class="info"><span class="badge">COD: 1078</span><h3>TAPON REDUCCION PVC 8 X3</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_8x4.jpg"></div>
+<div class="info"><span class="badge">COD: 1079</span><h3>TAPON REDUCCION PVC 8 X4</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_8x6.jpg"></div>
+<div class="info"><span class="badge">COD: 1080</span><h3>TAPON REDUCCION PVC 8 X6</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_10x2.jpg"></div>
+<div class="info"><span class="badge">COD: 1081</span><h3>TAPON REDUCCION PVC 10 X2</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_10x3.jpg"></div>
+<div class="info"><span class="badge">COD: 1082</span><h3>TAPON REDUCCION PVC 10 X3</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_10x4.jpg"></div>
+<div class="info"><span class="badge">COD: 1083</span><h3>TAPON REDUCCION PVC 10 X4</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_10x6.jpg"></div>
+<div class="info"><span class="badge">COD: 1084</span><h3>TAPON REDUCCION PVC 10 X6</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_10x8.jpg"></div>
+<div class="info"><span class="badge">COD: 1085</span><h3>TAPON REDUCCION PVC 10 X8</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_12x2.jpg"></div>
+<div class="info"><span class="badge">COD: 1086</span><h3>TAPON REDUCCION PVC 12 X2</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_12x3.jpg"></div>
+<div class="info"><span class="badge">COD: 1087</span><h3>TAPON REDUCCION PVC 12 X3</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_12x4.jpg"></div>
+<div class="info"><span class="badge">COD: 1088</span><h3>TAPON REDUCCION PVC 12 X4</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_12x6.jpg"></div>
+<div class="info"><span class="badge">COD: 1089</span><h3>TAPON REDUCCION PVC 12 X6</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_12x8.jpg"></div>
+<div class="info"><span class="badge">COD: 1090</span><h3>TAPON REDUCCION PVC 12 X8</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_12x10.jpg"></div>
+<div class="info"><span class="badge">COD: 1091</span><h3>TAPON REDUCCION PVC 12 X10</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_14x2.jpg"></div>
+<div class="info"><span class="badge">COD: 1092</span><h3>TAPON REDUCCION PVC 14 X2</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_14x3.jpg"></div>
+<div class="info"><span class="badge">COD: 1093</span><h3>TAPON REDUCCION PVC 14 X3</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_14x4.jpg"></div>
+<div class="info"><span class="badge">COD: 1094</span><h3>TAPON REDUCCION PVC 14 X4</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_14x6.jpg"></div>
+<div class="info"><span class="badge">COD: 1095</span><h3>TAPON REDUCCION PVC 14 X6</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_14x8.jpg"></div>
+<div class="info"><span class="badge">COD: 1096</span><h3>TAPON REDUCCION PVC 14 X8</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_14x10.jpg"></div>
+<div class="info"><span class="badge">COD: 1097</span><h3>TAPON REDUCCION PVC 14 X10</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_14x12.jpg"></div>
+<div class="info"><span class="badge">COD: 1098</span><h3>TAPON REDUCCION PVC 14 X12</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_16x2.jpg"></div>
+<div class="info"><span class="badge">COD: 1099</span><h3>TAPON REDUCCION PVC 16 X2</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+<div class="card">
+<div class="img-container"><img src="images/tapon_reduccion_pvc_16x3.jpg"></div>
+<div class="info"><span class="badge">COD: 1100</span><h3>TAPON REDUCCION PVC 16 X3</h3><span class="unit">Unidad: pz</span></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0c0c0c;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.section-title {
+    text-align: center;
+    color: #ffcc00; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin: 40px auto;
+    border-bottom: 4px solid #ffcc00;
+    display: table;
+    padding-bottom: 10px;
+}
+
+.grid-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    text-align: center;
+    min-height: 400px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.tarjeta:hover {
+    transform: translateY(-10px);
+    border-color: #ffcc00;
+    box-shadow: 0 10px 20px rgba(255, 204, 0, 0.2);
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain; 
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.tarjeta p {
+    margin: 5px 0;
+}
+
+.tarjeta p strong {
+    color: #ffcc00;
+}
